@@ -18,8 +18,6 @@ public class firstAWT extends Frame implements ActionListener {
         frame.setTitle("Raghav God");
         TextField tf =new TextField("Raghav is pro");
         //TextField tf1 =new TextField("Raghav is epic");
-
-        tf.setEditable(false);
         
         frame.setLayout(new FlowLayout(FlowLayout.LEFT, 100 , 30));
         frame.add(tf);
