@@ -31,13 +31,12 @@ public class firstAWT extends Frame implements ActionListener {
         frame.add(b1);
         //frame.add(b2);
 
-        b1.setBackground(Color.cyan);
         //b2.setBackground(Color.pink);
 
-        b1.setForeground(Color.red);
         //b2.setForeground(Color.orange);
 
         b1.addActionListener(this);
+        b1.setEnabled(true);
 
         while(true)
         {
@@ -50,6 +49,7 @@ public class firstAWT extends Frame implements ActionListener {
     public void actionPerformed(ActionEvent e)
     {
         clickCount++;
+        System.out.println("Button Clicked");
     }
 
 
